@@ -1,4 +1,9 @@
 def my_collect(array)
-  bunZ
+  count = 0
+  collection = []
+  while count < array.count
+    collection << yield(array[i])
+  end
+  collection
 end
 
